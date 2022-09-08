@@ -11,19 +11,19 @@ public class Palindrome
 
         String newStr = str.replaceAll("[^a-zA-Z0-9]", "");
 
-        StringBuilder reverseStr = new StringBuilder();
+        String reverseStr = "";
         int length = newStr.length();
 
         for(int i = length -1; i>=0; i--)
         {
-            reverseStr.append(newStr.charAt(i));
+            reverseStr += newStr.charAt(i);
         }
 
         newStr = newStr.toLowerCase();
-        reverseStr = new StringBuilder(reverseStr.toString().toLowerCase());
+        reverseStr = reverseStr.toLowerCase();
 
 
-        if (newStr.equals(reverseStr.toString()))
+        if (newStr.equals(reverseStr))
         {
             System.out.println(str + " is a Palindrome");
         }
