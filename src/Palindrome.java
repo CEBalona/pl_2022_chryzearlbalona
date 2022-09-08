@@ -26,6 +26,7 @@ public class Palindrome
         if (newStr.equals(reverseStr.toString()))
         {
             System.out.println(str + " is a Palindrome");
+            System.out.println(str + " is a Palindrome");
         }
         else
         {
