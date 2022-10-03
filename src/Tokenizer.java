@@ -18,8 +18,8 @@ public class Tokenizer
         String[] output = con.split(" ");
 
         int i = 0;
-        while (i<output.length) {
-            if (null!=output[i])
+        while(i<output.length) {
+            if(null!=output[i])
             {
                 switch (output[i]) {
                     case "String", "int", "float", "double", "boolean", "char" -> System.out.print("<data_type>");
