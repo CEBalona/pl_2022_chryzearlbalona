@@ -32,15 +32,15 @@ public class Tokenizer
                 {
                     System.out.print("<identifier>");
                 }
-                if(Pattern.matches("num" , output[i]))
+                else if(Pattern.matches("num" , output[i]))
                 {
                     System.out.print("<identifier>");
                 }
-                if(Pattern.matches("number" , output[i]))
+                else if(Pattern.matches("number" , output[i]))
                 {
                     System.out.print("<identifier>");
                 }
-                if(Pattern.matches("str" , output[i]))
+                else if(Pattern.matches("str" , output[i]))
                 {
                     System.out.print("<identifier>");
                 }
